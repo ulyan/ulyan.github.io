@@ -1,22 +1,22 @@
 @font-face {
-  font-family:'Glyphicons Regular';
-  src:url('../fonts/glyphicons-regular.eot');
-  src:url('../fonts/glyphicons-regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/glyphicons-regular.woff2') format('woff2'),
-    url('../fonts/glyphicons-regular.woff') format('woff'),
-    url('../fonts/glyphicons-regular.ttf') format('truetype'),
-    url('../fonts/glyphicons-regular.svg#glyphiconsregular) format('svg')
+    font-family: 'Glyphicons Regular';
+    src: url('../fonts/glyphicons-regular.eot');
+    src:
+        url('../fonts/glyphicons-regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/glyphicons-regular.woff') format('woff'),
+        url('../fonts/glyphicons-regular.ttf') format('truetype'),
+        url('../fonts/glyphicons-regular.svg#glyphicons-regular') format('svg');
 }
 
 .glyphicons {
-  display:inline-block;
-  font-family:'Glyphicons Regular';
-  font-style:normal;
-  font-weight:normal;
-  line-height:1;
-  vertical-align:top;
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale
+  display: inline-block;
+  font-family: 'Glyphicons Regular';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: top;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
 }
 
   .glyphicons.x05{font-size:12px}
