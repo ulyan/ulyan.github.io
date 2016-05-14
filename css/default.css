@@ -274,3 +274,10 @@ a .social-instagram {color: #5851db}
 a .social-medium {color: #00ab6b}
 a .social-vimeo {color: #1ab7ea}
 a .social-flickr {color: #ff0084}
+
+p {
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
