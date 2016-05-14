@@ -104,7 +104,3 @@
 .social-snapchat:before {content:'\E068'}
 .social-etsy:before {content:'\E069'}
 .social-stackexchange:before {content:'\E070'}
-
-.social > a:link, a:hover, a:visited, a:active {
-    color: #777777 !important;
-}
