@@ -11,8 +11,8 @@
 
 .social {
 	position:relative;
-    top:1px;
-    display:inline-block;
+	top:1px;
+	display:inline-block;
     font-family:'Glyphicons Social';
     font-style:normal;
     font-weight:normal;
@@ -22,7 +22,7 @@
 }
 
     .social.x05 {font-size:12px}
-    .social.x2 {font-size:48px}
+    .social.x2 {font-size:36px}
     .social.x3 {font-size:72px}
     .social.x4 {font-size:96px}
     .social.x5 {font-size:120px}
