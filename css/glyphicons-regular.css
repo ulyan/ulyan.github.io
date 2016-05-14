@@ -1,6 +1,6 @@
-@font-face {
-	font-family: 'Glyphicons Regular';
-	src: url('../fonts/glyphicons-regular.eot');
+@font-face{
+	font-family:'Glyphicons Regular';
+	src:url('../fonts/glyphicons-regular.eot');
 	src:
 		url('../fonts/glyphicons-regular.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/glyphicons-regular.woff') format('woff'),
@@ -8,14 +8,15 @@
 		url('../fonts/glyphicons-regular.svg#glyphicons-regular') format('svg');
 }
 
-.glyphicons {
-	display: inline-block;
-	font-family: 'Glyphicons Regular';
-	-webkit-font-smoothing: antialiased;
-	font-style: normal;
-	font-weight: normal;
-	line-height: 1;
-	-moz-osx-font-smoothing: grayscale;
+.glyphicons{
+	display:inline-block;
+	font-family:'Glyphicons Regular';
+	font-style:normal;
+	font-weight:normal;
+	line-height:1;
+	vertical-align:top;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
 }
 
 	.glyphicons.x05{font-size:12px}
@@ -33,7 +34,7 @@
 	.glyphicons.flipv{-moz-transform:scaleY(-1);-o-transform:scaleY(-1);-webkit-transform:scaleY(-1);transform:scaleY(-1);filter:FlipV;-ms-filter:"FlipV"}
 	.glyphicons.rotate90{-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}
 	.glyphicons.rotate180{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}
-  .glyphicons.rotate270{-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg)}
+	.glyphicons.rotate270{-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg)}
 
 .glyphicons-glass:before{content:"\E001"}
 .glyphicons-leaf:before{content:"\E002"}
