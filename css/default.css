@@ -269,6 +269,8 @@ footer {
   }
 }
 
-a .social-facebook {
-    color: #777777;
-}
+a .social-facebook {color: #3b5998}
+a .social-instagram {color: #5851db}
+a .social-medium {color: #00ab6b}
+a .social-vimeo {color: #1ab7ea}
+a .social-flickr {color: #ff0084}
