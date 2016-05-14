@@ -105,4 +105,4 @@
 .social-etsy:before {content:'\E069'}
 .social-stackexchange:before {content:'\E070'}
 
-a.social-facebook {color:#3b5998}
+.social-facebook > a:link {color:#ff0000}
