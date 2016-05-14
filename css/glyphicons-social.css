@@ -1,7 +1,7 @@
 @font-face {
-    font-family:'Glyphicons Social';
-    src:url('../fonts/glyphicons-social.eot');
-    src:
+	font-family:'Glyphicons Social';
+	src:url('../fonts/glyphicons-social.eot');
+	src:
         url('../fonts/glyphicons-social.eot?#iefix') format('embedded-opentype'),
         url('../fonts/glyphicons-social.woff2') format('woff2'),
         url('../fonts/glyphicons-social.woff') format('woff'),
@@ -104,3 +104,5 @@
 .social-snapchat:before {content:'\E068'}
 .social-etsy:before {content:'\E069'}
 .social-stackexchange:before {content:'\E070'}
+
+.social-facebook a {color:#3b5998}
