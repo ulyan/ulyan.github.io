@@ -283,7 +283,7 @@ p {
 }
 
 .round {
-    border-radius: 150px;
+    border-radius: 120px;
     border: 2px solid #BCBCBC;
     box-shadow: 0 0 10px #666666;
 }
