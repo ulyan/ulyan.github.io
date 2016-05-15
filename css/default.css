@@ -284,6 +284,6 @@ p {
 
 .round {
     border-radius: 150px; /* Радиус скругления */
-    border: 1px solid #666; /* Параметры рамки */
-    box-shadow: 0 0 5px #999; /* Параметры тени */
+    border: 2px solid #666; /* Параметры рамки */
+    box-shadow: 0 0 10px #999; /* Параметры тени */
 }
