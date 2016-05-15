@@ -284,6 +284,8 @@ p {
 
 .round {
     border-radius: 120px;
-    border: 2px solid #BCBCBC;
-    box-shadow: 0 0 10px #666666;
+    border: 3px solid #BCBCBC;
+    box-shadow: 0 5px 10px #666666;
+    -webkit-box-shadow: 0 5px 10px #666666;
+    -moz-box-shadow: 0 5px 10px #666666;
 }
