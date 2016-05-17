@@ -16,10 +16,17 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.load.min.js"></script>
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css"/>
-	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic&subset=latin,cyrillic"/>
+	<noscript>
 	<link rel="stylesheet" href="css/glyphicons-regular.css"/>
 	<link rel="stylesheet" href="css/default.css"/>
+	</noscript>
+	<script type="text/javascript">
+		head.load(['css/glyphicons-regular.css','css/default.css','js/scale.fix.js'], function() {
+			new MySite();
+		});
+	</script>
 	</head>
 	<body>
 		<div class="wrapper">
@@ -52,6 +59,6 @@
 				<a href="https://www.ssllabs.com/ssltest/analyze.html?d=tvoridob.ro" title="SSL Secured"><img src="images/button/ssl.png" alt="SSL Secured"/></a> <a href="https://no-www.org/verify.php?u=tvoridob.ro" title="www. is deprecated"><img src="images/button/no-www.png" alt="www. is deprecated"/></a></p>
 			</footer>
 		</div>
-		<script type="text/javascript" src="js/scale.fix.js"></script>
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic&subset=latin,cyrillic"/>
 	</body>
 </html>
