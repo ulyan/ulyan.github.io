@@ -1,7 +1,6 @@
 body {
 	font: 16px/1.5 'Roboto', Arial, sans-serif;
 	background: url('/images/bg.png') repeat;
-	padding: 50px 0 25px;
 }
 h1, h2, h3, h4 {
 	font-weight: 700;
@@ -29,7 +28,7 @@ h2 {
 	border: 2px solid #BCBCBC;
 	box-shadow: 0 5px 10px #999;
 }
- @media (min-width: 768px) {
+@media (min-width: 768px) {
 	.sidebar {
 		position: fixed;
 	}
