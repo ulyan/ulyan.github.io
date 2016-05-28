@@ -1,6 +1,6 @@
 body {
-	font: 16px/1.5 "Roboto", Arial, sans-serif;
-	background: url("images/bg.png") repeat-y;
+	font: 16px/1.5 'Roboto', Arial, sans-serif;
+	background: url('images/bg.png') repeat-y;
 	padding: 50px 0 25px;
 }
 h1, h2, h3, h4 {
