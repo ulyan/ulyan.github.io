@@ -29,9 +29,9 @@ h2 {
 
 .img-circle {
 	border: 2px solid #BCBCBC;
-	-webkit-box-shadow: 2px 5px 15px 0px #999;
-	-moz-box-shadow: 2px 5px 15px 0px #999;
-	box-shadow: 2px 5px 15px 0px #999;
+	-webkit-box-shadow: 2px 4px 10px 0px #999;
+	-moz-box-shadow: 2px 4px 10px 0px #999;
+	box-shadow: 2px 4px 10px 0px #999;
 
 }
 @media (min-width: 768px) {
