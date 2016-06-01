@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage" prefix="og: http://ogp.me/ns#">
+<html lang="en"
+	itemscope itemtype="http://schema.org/WebPage"
+	prefix="og: http://ogp.me/ns#">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,9 +18,21 @@
 	<meta property="og:description" content="Test Description">
 	<meta property="og:url" content="http://tvoridob.ro/">
 	<meta property="og:image" content="http://tvoridob.ro/images/av.png">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="//yastatic.net/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,400italic,700&subset=latin,cyrillic">
+	<noscript>
+	<link rel="stylesheet" href="css/default.css">
+	</noscript>
+	<script>
+		var cb = function() {
+			var l = document.createElement('link'); l.rel = 'stylesheet';
+			l.href = 'css/default.css';
+			var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+		};
+		var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+		if (raf) raf(cb);
+		else window.addEventListener('load', cb);
+	</script>
 	<!--[if lt IE 9]>
 		<script src="//cdn.jsdelivr.net/html5shiv/latest/html5shiv.min.js"></script>
 		<script src="//cdn.jsdelivr.net/respond/latest/respond.min.js"></script>
@@ -68,7 +82,7 @@
 	</div>
 </div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="//yastatic.net/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="//apis.google.com/js/platform.js"></script>
-<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
