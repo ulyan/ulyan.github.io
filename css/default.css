@@ -57,7 +57,7 @@ footer {
 	cursor: pointer;
 }
 .sidebar a:hover, .sidebar a:active {
-	text-decoration: 2px dotted;
+	text-decoration-style: 2px dotted;
 }
 .img-circle {
 	border: 2px solid #BCBCBC;
