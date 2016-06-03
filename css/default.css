@@ -56,10 +56,6 @@ footer {
 	margin-top: 10px;
 	cursor: pointer;
 }
-.sidebar a:hover, .sidebar a:active {
-	text-decoration: none;
-	border-bottom: 1px dotted;
-}
 .img-circle {
 	border: 2px solid #BCBCBC;
 	box-shadow: 2px 4px 10px 0px #999;
