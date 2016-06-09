@@ -60,6 +60,17 @@ footer {
 	border: 2px solid #BCBCBC;
 	box-shadow: 2px 4px 10px 0px #999;
 }
-#disqus_thread {
-    padding-bottom: -15px;
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
 }
