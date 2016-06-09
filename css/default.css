@@ -63,3 +63,7 @@ footer {
 #disqus_thread {
     background: red;
 }
+
+#disqus_thread a {
+    color: black;
+}
