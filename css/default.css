@@ -61,5 +61,5 @@ footer {
 	box-shadow: 2px 4px 10px 0px #999;
 }
 #disqus_thread #footer {
-	padding: 24px 0 0;
+	padding: 24px 0 0 !important;
 }
