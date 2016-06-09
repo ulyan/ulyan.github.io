@@ -60,6 +60,6 @@ footer {
 	border: 2px solid #BCBCBC;
 	box-shadow: 2px 4px 10px 0px #999;
 }
-#disqus_thread a {
-	color: #337ab7;
+#disqus_thread {
+    background: red;
 }
