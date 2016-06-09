@@ -60,6 +60,6 @@ footer {
 	border: 2px solid #BCBCBC;
 	box-shadow: 2px 4px 10px 0px #999;
 }
-#footer {
-	padding: 24px 0 0;
+div #footer {
+	padding: 24px 0 0 !important;
 }
