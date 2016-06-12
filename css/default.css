@@ -28,7 +28,8 @@ footer {
 }
 .content {
 	position: relative;
-	padding: 50px 0 25px;
+	padding-top: 50px;
+	padding-bottom: 25px;
 }
 .content h2:nth-child(1) {
 	margin-top: 0;
@@ -50,7 +51,8 @@ footer {
 	-ms-flex-pack: justify;
 	justify-content: space-between;
 	min-height: 100%;
-	padding: 50px 0 25px;
+	padding-top: 50px;
+	padding-bottom: 25px;
 }
 .sidebar h3 {
 	margin-top: 10px;
