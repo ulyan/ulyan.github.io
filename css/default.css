@@ -1,12 +1,12 @@
 body {
-	font: 16px/1.5 "Roboto", Arial, sans-serif;
+	font: 16px/1.5 "Roboto", sans-serif;
 	background: url("/images/bg.png") repeat;
 }
 h1, h2, h3, h4 {
 	font-weight: 700;
 }
 h1 {
-	font-size: 2em;
+	font: 2em "Rock Salt";
 	margin: 25px 0 40px;
 }
 h3 {
