@@ -6,7 +6,7 @@ h1, h2, h3, h4 {
 	font-weight: 700;
 }
 h1 {
-	font: 2em "Rock Salt", cursive;
+	font: 2em/1 "Rock Salt", cursive;
 	margin: 25px 0 40px;
 }
 h3 {
