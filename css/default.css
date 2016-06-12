@@ -22,9 +22,12 @@ h2 {
 
 footer {
 	-ms-flex-align:center;
+	-ms-flex-pack:justify;
 	-webkit-box-align:center;
+	-webkit-box-pack:justify;
 	align-items:center;
 	display:flex;
+	justify-content:space-between;
 }
 
 .content {
