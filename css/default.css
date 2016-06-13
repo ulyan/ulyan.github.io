@@ -61,7 +61,7 @@ footer {
 }
 .photo {
 	border: 2px solid #BCBCBC;
-	box-shadow: 2px 4px 8px 0 #999;
+	box-shadow: 2px 4px 10px 0 #BCBCBC;
 }
 #disqus_thread {
 	margin-bottom: -12px;
