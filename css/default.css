@@ -41,11 +41,14 @@ h1 {
 	color: #777;
 	margin: 25px 0 40px;
 }
+h2 {
+	font-size: 1.5em;
+}
 h3 {
 	font-size: 1.25em;
 }
-h2 {
-	font-size: 1.5em;
+strong {
+	font-weight: 500;
 }
 footer {
 	display: -webkit-box;
