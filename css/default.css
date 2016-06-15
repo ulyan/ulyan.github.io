@@ -26,6 +26,15 @@
 		url("/fonts/Roboto-Medium.ttf") format("truetype");
 }
 @font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	src: src: local("☺︎"),
+		url("/fonts/Roboto-Bold.woff2") format("woff2"),
+		url("/fonts/Roboto-Bold.woff") format("woff"),
+		url("/fonts/Roboto-Bold.ttf") format("truetype");
+}
+@font-face {
 	font-family: "Rock Salt";
 	font-style: normal;
 	font-weight: 400;
