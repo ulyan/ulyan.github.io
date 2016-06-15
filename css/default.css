@@ -1,9 +1,43 @@
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	src: local("☺︎"),
+		url("Roboto-Regular.woff2") format("woff2"),
+		url("Roboto-Regular.woff") format("woff"),
+		url("Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Roboto";
+	font-style: italic;
+	font-weight: 400;
+	src: local("☺︎"),
+		url("Roboto-Italic.woff2") format("woff2"),
+		url("Roboto-Italic.woff") format("woff"),
+		url("Roboto-Italic.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	src: src: local("☺︎"),
+		url("Roboto-Medium.woff2") format("woff2"),
+		url("Roboto-Medium.woff") format("woff"),
+		url("Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Rock Salt";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Rock Salt"), local("RockSalt"),
+		url("http://fonts.gstatic.com/l/font?kit=gd4-D138MW5xtop2Tj4Mg8d8QlxByM-RQkNtrEYfDDSHpVrDEsrWGyHvPIGrkx6W&skey=53155c62c0f0411&v=v6") format("woff2");
+}
 body {
 	font: 16px/1.5 "Roboto", sans-serif;
 	background: url("/images/bg.png") repeat;
-}
-h1, h2, h3, h4 {
-	font-weight: 700;
 }
 h1 {
 	font: 2em/1.2 "Rock Salt", cursive;
@@ -36,9 +70,9 @@ footer {
 	margin-top: 0;
 }
 @media (min-width: 768px) {
-	.sidebar {
-		position: fixed;
-	}
+.sidebar {
+	position: fixed;
+}
 }
 .sidebar {
 	display: -webkit-box;
@@ -67,15 +101,15 @@ footer {
 	margin-bottom: -12px;
 }
 #___plusone_0 {
-margin-left: 10px!important;
+	margin-left: 10px!important;
 }
 .lang-RU, .lang-US {
 	background: url("/images/lang.png") no-repeat 0 11px;
 	display: -moz-inline-box;
 	-moz-box-orient: vertical;
 	display: inline-block;
-	*display: inline;
-	*zoom: 1;
+ *display: inline;
+ *zoom: 1;
 	vertical-align: baseline;
 	position: relative;
 	overflow: hidden;
