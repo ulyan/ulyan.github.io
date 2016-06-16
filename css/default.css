@@ -38,7 +38,7 @@
   font-family: 'Rock Salt';
   font-style: normal;
   font-weight: 400;
-  src: local('Rock Salt'), local('RockSalt'), url(http://fonts.gstatic.com/s/rocksalt/v6/Q94aHXFHGip10K5uxi1jOLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+  src: local('Rock Salt'), local('RockSalt'), url(//fonts.gstatic.com/s/rocksalt/v6/Q94aHXFHGip10K5uxi1jOLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
 }
 body {
 	font: 16px/1.5 "Roboto", sans-serif;
