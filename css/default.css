@@ -2,7 +2,7 @@
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 400;
-	src: local("☺︎"), local('Roboto'), local('Roboto-Regular'),
+	src: local("☺︎"), local("Roboto'), local("Roboto-Regular"),
 		url("/fonts/Roboto-Regular.woff2") format("woff2"),
 		url("/fonts/Roboto-Regular.woff") format("woff"),
 		url("/fonts/Roboto-Regular.ttf") format("truetype");
@@ -11,7 +11,7 @@
 	font-family: "Roboto";
 	font-style: italic;
 	font-weight: 400;
-	src: local("☺︎"), local('Roboto Italic'), local('Roboto-Italic'),
+	src: local("☺︎"), local("Roboto Italic"), local("Roboto-Italic"),
 		url("/fonts/Roboto-Italic.woff2") format("woff2"),
 		url("/fonts/Roboto-Italic.woff") format("woff"),
 		url("/fonts/Roboto-Italic.ttf") format("truetype");
@@ -20,7 +20,7 @@
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 500;
-	src: local("☺︎"), local('Roboto Medium'), local('Roboto-Medium'),
+	src: local("☺︎"), local("Roboto Medium"), local("Roboto-Medium"),
 		url("/fonts/Roboto-Medium.woff2") format("woff2"),
 		url("/fonts/Roboto-Medium.woff") format("woff"),
 		url("/fonts/Roboto-Medium.ttf") format("truetype");
@@ -29,18 +29,17 @@
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 700;
-	src: local("☺︎"), local('Roboto Bold'), local('Roboto-Bold'),
+	src: local("☺︎"), local("Roboto Bold"), local("Roboto-Bold"),
 		url("/fonts/Roboto-Bold.woff2") format("woff2"),
 		url("/fonts/Roboto-Bold.woff") format("woff"),
 		url("/fonts/Roboto-Bold.ttf") format("truetype");
 }
 @font-face {
-  font-family: 'Rock Salt';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Rock Salt'), local('RockSalt'),
-	url("//fonts.gstatic.com/l/font?kit=gd4-D138MW5xtop2Tj4Mg8d8QlxByM-RQkNtrEYfDDSHpVrDEsrWGyHvPIGrkx6W&skey=53155c62c0f0411&v=v6") format("woff2"),		
-	url("//fonts.gstatic.com/l/font?kit=ZSk1ILpoJ0Ye0Mg369bM98d8QlxByM-RQkNtrEYfDDSHpVrDEsrWGyHvPIGrkx6W&skey=53155c62c0f0411&v=v6") format('woff');		
+	font-family: "Rock Salt";
+	src: local("☺︎"), local("Rock Salt"), local("RockSalt"),
+		url("//fonts.gstatic.com/l/font?kit=gd4-D138MW5xtop2Tj4Mg8d8QlxByM-RQkNtrEYfDDSHpVrDEsrWGyHvPIGrkx6W&skey=53155c62c0f0411&v=v6") format("woff2"),		
+		url("//fonts.gstatic.com/l/font?kit=ZSk1ILpoJ0Ye0Mg369bM98d8QlxByM-RQkNtrEYfDDSHpVrDEsrWGyHvPIGrkx6W&skey=53155c62c0f0411&v=v6") format("woff"),
+		url("//fonts.gstatic.com/l/font?kit=j3_KYtiN4djmrOwpM4JakOZ7MXarqPZqqH_9bIQwXXI&skey=53155c62c0f0411&v=v6") format("truetype");
 }
 body {
 	font: 16px/1.5 "Roboto", sans-serif;
@@ -77,9 +76,9 @@ footer {
 	margin-top: 0;
 }
 @media (min-width: 768px) {
-.sidebar {
-	position: fixed;
-}
+	.sidebar {
+		position: fixed;
+	}
 }
 .sidebar {
 	display: -webkit-box;
