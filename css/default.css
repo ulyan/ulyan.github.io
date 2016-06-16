@@ -35,18 +35,17 @@
 		url("/fonts/Roboto-Bold.ttf") format("truetype");
 }
 @font-face {
-	font-family: "Rock Salt";
-	font-style: normal;
-	font-weight: 400;
-	src: local("Rock Salt"), local("RockSalt"),
-	url("http://fonts.gstatic.com/l/font?kit=ZSk1ILpoJ0Ye0Mg369bM98d8QlxByM-RQkNtrEYfDDSHpVrDEsrWGyHvPIGrkx6W&skey=53155c62c0f0411&v=v6") format('woff');
+  font-family: 'Rock Salt';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rock Salt'), local('RockSalt'), url(http://fonts.gstatic.com/s/rocksalt/v6/Q94aHXFHGip10K5uxi1jOLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
 }
 body {
 	font: 16px/1.5 "Roboto", sans-serif;
 	background: url("/images/bg.png") repeat;
 }
 h1 {
-	font: 2em/1.2 "Rock Salt", cursive;
+	font: 2em/1.2 'Rock Salt', cursive;
 	color: #777;
 	margin: 25px 0 40px;
 }
