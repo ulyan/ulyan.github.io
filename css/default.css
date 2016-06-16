@@ -48,7 +48,7 @@ body {
 	background: url("/images/bg.png") repeat;
 }
 h1 {
-	font: 2em/1.2 "Rock Salt", cursive;
+	font: 2em/1.2 "Rock Salt", cursive !important;
 	color: #777;
 	margin: 25px 0 40px;
 }
