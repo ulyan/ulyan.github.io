@@ -2,7 +2,7 @@
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 400;
-	src: local("☺︎"), local("Roboto'), local("Roboto-Regular"),
+	src: local("☺︎"), local("Roboto"), local("Roboto-Regular"),
 		url("/fonts/Roboto-Regular.woff2") format("woff2"),
 		url("/fonts/Roboto-Regular.woff") format("woff"),
 		url("/fonts/Roboto-Regular.ttf") format("truetype");
