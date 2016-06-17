@@ -97,7 +97,7 @@
 }
 body {
 	font: 16px/1.5 "Roboto", sans-serif;
-	background: url(/images/bg.png) repeat;
+	background: url(/img/bg.png) repeat;
 }
 h1 {
 	font: 2em/1.2 "Rock Salt", cursive;
@@ -164,7 +164,7 @@ footer {
 	margin-left: 10px!important;
 }
 .lang-RU, .lang-US {
-	background: url(/images/lang.png) no-repeat 0 11px;
+	background: url(/img/lang.png) no-repeat 0 11px;
 	display: -moz-inline-box;
 	-moz-box-orient: vertical;
 	display: inline-block;
