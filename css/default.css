@@ -1,49 +1,103 @@
+/* cyrillic */
 @font-face {
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 400;
-	src: local("☺︎"), local("Roboto"), local("Roboto-Regular"),
-		url("/fonts/Roboto-Regular.woff2") format("woff2"),
-		url("/fonts/Roboto-Regular.woff") format("woff"),
-		url("/fonts/Roboto-Regular.ttf") format("truetype");
+	src: local("Roboto"), local("Roboto-Regular"),
+		url(//fonts.gstatic.com/s/roboto/v15/uYECMKoHcO9x1wdmbyHIm3-_kf6ByYO6CLYdB4HQE-Y.woff2) format("woff2"),
+		url(//fonts.gstatic.com/s/roboto/v15/mUdRVCMHGKUBOACHGTH1g-vvDin1pK8aKteLpeZ5c0A.woff) format("woff"),
+		url(//fonts.gstatic.com/s/roboto/v15/wVT7FLiFaRYBojdntuOytOvvDin1pK8aKteLpeZ5c0A.ttf) format("truetype");
+	unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
+/* latin */
 @font-face {
 	font-family: "Roboto";
-	font-style: italic;
+	font-style: normal;
 	font-weight: 400;
-	src: local("☺︎"), local("Roboto Italic"), local("Roboto-Italic"),
-		url("/fonts/Roboto-Italic.woff2") format("woff2"),
-		url("/fonts/Roboto-Italic.woff") format("woff"),
-		url("/fonts/Roboto-Italic.ttf") format("truetype");
+	src: local("Roboto"), local("Roboto-Regular"),
+		url(//fonts.gstatic.com/s/roboto/v15/oMMgfZMQthOryQo9n22dcuvvDin1pK8aKteLpeZ5c0A.woff2) format("woff2"),
+		url(//fonts.gstatic.com/s/roboto/v15/mUdRVCMHGKUBOACHGTH1g-vvDin1pK8aKteLpeZ5c0A.woff) format("woff"),
+		url(//fonts.gstatic.com/s/roboto/v15/wVT7FLiFaRYBojdntuOytOvvDin1pK8aKteLpeZ5c0A.ttf) format("truetype");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
+/* cyrillic */
 @font-face {
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 500;
-	src: local("☺︎"), local("Roboto Medium"), local("Roboto-Medium"),
-		url("/fonts/Roboto-Medium.woff2") format("woff2"),
-		url("/fonts/Roboto-Medium.woff") format("woff"),
-		url("/fonts/Roboto-Medium.ttf") format("truetype");
+	src: local("Roboto Medium"), local("Roboto-Medium"),
+		url(//fonts.gstatic.com/s/roboto/v15/oHi30kwQWvpCWqAhzHcCSIX0hVgzZQUfRDuZrPvH3D8.woff2) format("woff2"),
+		url(//fonts.gstatic.com/s/roboto/v15/oHi30kwQWvpCWqAhzHcCSLO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"),
+		url(//fonts.gstatic.com/s/roboto/v15/oHi30kwQWvpCWqAhzHcCSCZ2oysoEQEeKwjgmXLRnTc.ttf) format("truetype");
+	unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
+/* latin */
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	src: local("Roboto Medium"), local("Roboto-Medium"),
+		url(//fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUZBw1xU1rKptJj_0jans920.woff2) format("woff2"),
+		url(//fonts.gstatic.com/s/roboto/v15/oHi30kwQWvpCWqAhzHcCSLO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"),
+		url(//fonts.gstatic.com/s/roboto/v15/oHi30kwQWvpCWqAhzHcCSCZ2oysoEQEeKwjgmXLRnTc.ttf) format("truetype");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* cyrillic */
 @font-face {
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 700;
-	src: local("☺︎"), local("Roboto Bold"), local("Roboto-Bold"),
-		url("/fonts/Roboto-Bold.woff2") format("woff2"),
-		url("/fonts/Roboto-Bold.woff") format("woff"),
-		url("/fonts/Roboto-Bold.ttf") format("truetype");
+	src: local("Roboto Bold"), local("Roboto-Bold"),
+		url(//fonts.gstatic.com/s/roboto/v15/isZ-wbCXNKAbnjo6_TwHToX0hVgzZQUfRDuZrPvH3D8.woff2) format("woff2"),
+		url(//fonts.gstatic.com/s/roboto/v15/isZ-wbCXNKAbnjo6_TwHTrO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"),
+		url(//fonts.gstatic.com/s/roboto/v15/isZ-wbCXNKAbnjo6_TwHTiZ2oysoEQEeKwjgmXLRnTc.ttf) format("truetype");
+	unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin */
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Roboto Bold"), local("Roboto-Bold"),
+		url(//fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOJBw1xU1rKptJj_0jans920.woff2) format("woff2"),
+		url(//fonts.gstatic.com/s/roboto/v15/isZ-wbCXNKAbnjo6_TwHTrO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"),
+		url(//fonts.gstatic.com/s/roboto/v15/isZ-wbCXNKAbnjo6_TwHTiZ2oysoEQEeKwjgmXLRnTc.ttf) format("truetype");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* cyrillic */
+@font-face {
+	font-family: "Roboto";
+	font-style: italic;
+	font-weight: 400;
+	src: local("Roboto Italic"), local("Roboto-Italic"),
+		url(//fonts.gstatic.com/s/roboto/v15/OpXUqTo0UgQQhGj_SFdLWBkAz4rYn47Zy2rvigWQf6w.woff2) format("woff2"),
+		url(//fonts.gstatic.com/s/roboto/v15/m1uAalIytmLBFXF3PwhxpHYhjbSpvc47ee6xR_80Hnw.woff) format("woff"),
+		url(//fonts.gstatic.com/s/roboto/v15/sWTqoqnV-OOzHbi5P-jvYHYhjbSpvc47ee6xR_80Hnw.ttf) format("truetype");
+	unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin */
+@font-face {
+	font-family: "Roboto";
+	font-style: italic;
+	font-weight: 400;
+	src: local("Roboto Italic"), local("Roboto-Italic"),
+		url(//fonts.gstatic.com/s/roboto/v15/vPcynSL0qHq_6dX7lKVByXYhjbSpvc47ee6xR_80Hnw.woff2) format("woff2"),
+		url(//fonts.gstatic.com/s/roboto/v15/m1uAalIytmLBFXF3PwhxpHYhjbSpvc47ee6xR_80Hnw.woff) format("woff"),
+		url(//fonts.gstatic.com/s/roboto/v15/sWTqoqnV-OOzHbi5P-jvYHYhjbSpvc47ee6xR_80Hnw.ttf) format("truetype");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 @font-face {
 	font-family: "Rock Salt";
-	src: local("☺︎"), local("Rock Salt"), local("RockSalt"),
-		url("//fonts.gstatic.com/l/font?kit=gd4-D138MW5xtop2Tj4Mg8d8QlxByM-RQkNtrEYfDDSHpVrDEsrWGyHvPIGrkx6W&skey=53155c62c0f0411&v=v6") format("woff2"),		
-		url("//fonts.gstatic.com/l/font?kit=ZSk1ILpoJ0Ye0Mg369bM98d8QlxByM-RQkNtrEYfDDSHpVrDEsrWGyHvPIGrkx6W&skey=53155c62c0f0411&v=v6") format("woff"),
-		url("//fonts.gstatic.com/l/font?kit=j3_KYtiN4djmrOwpM4JakOZ7MXarqPZqqH_9bIQwXXI&skey=53155c62c0f0411&v=v6") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+	src: local("Rock Salt"), local("RockSalt"),
+		url(//fonts.gstatic.com/l/font?kit=gd4-D138MW5xtop2Tj4Mg8d8QlxByM-RQkNtrEYfDDSHpVrDEsrWGyHvPIGrkx6W&skey=53155c62c0f0411&v=v6) format("woff2"),		
+		url(//fonts.gstatic.com/l/font?kit=ZSk1ILpoJ0Ye0Mg369bM98d8QlxByM-RQkNtrEYfDDSHpVrDEsrWGyHvPIGrkx6W&skey=53155c62c0f0411&v=v6) format("woff"),
+		url(//fonts.gstatic.com/l/font?kit=j3_KYtiN4djmrOwpM4JakOZ7MXarqPZqqH_9bIQwXXI&skey=53155c62c0f0411&v=v6) format("truetype");
 }
 body {
 	font: 16px/1.5 "Roboto", sans-serif;
-	background: url("/images/bg.png") repeat;
+	background: url(/images/bg.png) repeat;
 }
 h1 {
 	font: 2em/1.2 "Rock Salt", cursive;
@@ -110,12 +164,12 @@ footer {
 	margin-left: 10px!important;
 }
 .lang-RU, .lang-US {
-	background: url("/images/lang.png") no-repeat 0 11px;
+	background: url(/images/lang.png) no-repeat 0 11px;
 	display: -moz-inline-box;
 	-moz-box-orient: vertical;
 	display: inline-block;
- *display: inline;
- *zoom: 1;
+	*display: inline;
+	*zoom: 1;
 	vertical-align: baseline;
 	position: relative;
 	overflow: hidden;
