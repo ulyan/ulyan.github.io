@@ -181,3 +181,6 @@ footer {
 .hcc.hc__right {
 	padding: 0;
 }
+.sidebar h3 {
+	font-weight:700;
+}
