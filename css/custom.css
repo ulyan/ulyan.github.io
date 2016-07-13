@@ -178,3 +178,6 @@ footer {
 .lang-US {
 	background-position: 0 -11px;
 }
+.hcc .hc__right {
+	padding: 0;
+}
