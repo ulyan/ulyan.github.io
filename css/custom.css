@@ -100,7 +100,7 @@ header {
 	opacity: 0;
 	visibility: hidden;
 	position: absolute;
-	bottom: -120px;
+	bottom: -115px;
 	padding: 10px;
 	transform: translate(0,10px);
 	background-color: #DCDCDC;
