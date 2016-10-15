@@ -107,6 +107,7 @@ header {
 	background-color: #DCDCDC;
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
 	width: 200px;
+	text-align: center;
 }
 
 .popover:before {
