@@ -1,5 +1,4 @@
 body {
-    font: 16px/1.5;
     background: url(/img/bg.png);
     width: 100%;
     height: 100%;
@@ -16,7 +15,7 @@ only screen and ( min-device-pixel-ratio: 2),
 only screen and ( min-resolution: 192dpi),
 only screen and ( min-resolution: 2dppx) {
     body {
-        background: url(/img/bg@2X.png) repeat top left / 931px 698px;
+        background: url(/img/bg@2X.png) repeat top left / 600px 602px;
     }
 }
 a:link,
