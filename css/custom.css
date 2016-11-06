@@ -94,7 +94,7 @@ header {
     opacity: 0;
     visibility: hidden;
     position: absolute;
-    bottom: -115px;
+    bottom: -110px;
     padding: 10px;
     transform: translate(0, 10px);
     background-color: #DCDCDC;
