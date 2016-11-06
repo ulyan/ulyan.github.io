@@ -23,7 +23,7 @@ only screen and (                min-resolution: 2dppx)
 	}
 }
 
-a {
+a:link, a:active, a:hover, a:visited {
 	text-decoration: none;
 	border-bottom: 1px dotted #696969;
 	color: #696969;
