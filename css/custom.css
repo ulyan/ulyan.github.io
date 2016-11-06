@@ -129,7 +129,7 @@ header {
 	display: inline-block;
 }
 
-.popover {
+.popup {
 	opacity: 0;
 	visibility: hidden;
 	position: absolute;
@@ -142,7 +142,7 @@ header {
 	text-align: center;
 }
 
-.popover:before {
+.popup:before {
 	position: absolute;
 	z-index: -1;
 	content: '';
@@ -155,7 +155,7 @@ header {
 	transition-property: transform;
 }
 
-header:hover .popover {
+header:hover .popup {
 	z-index: 10;
 	opacity: 1;
 	visibility: visible;
