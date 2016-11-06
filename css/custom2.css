@@ -80,7 +80,7 @@
 }
 body {
 	font: 16px/1.5 "Roboto", sans-serif;
-	color: #999999;
+	color: #111;
 	background: url(/img/bg.png) repeat top left;
 }
 @media
@@ -97,7 +97,7 @@ only screen and (                min-resolution: 2dppx)
 }
 h1 {
 	font: 2em/1.2 "Rock Salt", cursive;
-	color: #777;
+	color: #333;
 	margin: 25px 0 40px;
 }
 h3 {
