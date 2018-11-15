@@ -23,7 +23,11 @@
 <body>
 	<header>
 		<figure class="photo">
-			<img src="img/av.png" alt="Ulyan Chesnokov"> <a href="#" aria-label="Contacts"></a>
+			<picture>
+				<source type="image/webp" srcset="img/av.png">
+				<source type="image/png" srcset="img/av.png">
+				<img src="img/av.png" alt="Ulyan Chesnokov"> <a href="#" aria-label="Contacts"></a>
+			</picture>
 			<div class="popup">
 				<i class="far fa-envelope"></i> <a href="mailto:ul@tvoridob.ro" title="Mail me" aria-label="E-mail">ul@tvoridob.ro</a><br>
 				<i class="fab fa-telegram-plane"></i> <a href="tg://resolve?domain=ulyan" title="Text me" aria-label="Telegram">@ulyan</a>
