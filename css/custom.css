@@ -103,6 +103,7 @@ header {
     width: 200px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    line-height: 1.2;  
 }
 .popup:before {
     position: absolute;
